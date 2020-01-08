@@ -7,16 +7,19 @@
     # mix cans and gallons, so that the price is cheaper. Add 10% and round the values up, considering as full cans.
 import math
 
-def mixedCans(litres):
-    pass
-
 painted_area = int(input('Please inform the square meter of the are to be pained: '))
 litres = painted_area / 6
 
 total_cans = math.ceil(litres / 18)
 total_gallons = math.ceil(litres / 3.6)
-total_mixed = mixedCans(litres)
+can = litres / 18
+rem = litres % 18
+r1 = can % 1
+can = can - r1
+rem = rem + r1
+gal = math.ceil(rem/3.6)
 
 print(f'You need {total_cans} cans, with the amount of: {total_cans * 80.00}')
 print(f'You need {total_gallons} gallons, with the amount of: {total_gallons * 25.00}')
+print(f'You need {int(can)} cans and {int(gal)}, total: { (can * 80.00) + (gal * 25.00)}')
 

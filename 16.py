@@ -10,4 +10,3 @@ if litres < 18:
 else: 
     total_cans = round(litres / 18)
     print(f'You need {total_cans}, with the amount of: {total_cans * 80.00}')
-

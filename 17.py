@@ -1,5 +1,22 @@
-#Faça um Programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 6 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00 ou em galões de 3,6 litros, que custam R$ 25,00.
-    #Informe ao usuário as quantidades de tinta a serem compradas e os respectivos preços em 3 situações:
-    #comprar apenas latas de 18 litros;
-    #comprar apenas galões de 3,6 litros;
-    #misturar latas e galões, de forma que o preço seja o menor. Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, considere latas cheias.
+# Make a program for a paint store. The program shall ask for the size of square meters of the area to be painted.
+# Consider that the paint cover is 1 litre to every 6 square meters and the paint is sold in cans of 18 litres, 
+# that cost  R$ 80,00, or gallons of 3,6 litres, that cost R$ 25,00. 
+    # Inform the user the quantity of paint cans to be bought and the the full price in 3 scenarios:
+    # Buy only cans of 18 litres;
+    # Buy only gallons of 3,6 litres;
+    # mix cans and gallons, so that the price is cheaper. Add 10% and round the values up, considering as full cans.
+import math
+
+def mixedCans(litres):
+    pass
+
+painted_area = int(input('Please inform the square meter of the are to be pained: '))
+litres = painted_area / 6
+
+total_cans = math.ceil(litres / 18)
+total_gallons = math.ceil(litres / 3.6)
+total_mixed = mixedCans(litres)
+
+print(f'You need {total_cans} cans, with the amount of: {total_cans * 80.00}')
+print(f'You need {total_gallons} gallons, with the amount of: {total_gallons * 25.00}')
+

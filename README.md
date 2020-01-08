@@ -70,7 +70,7 @@ The exercises are separated by number. Here is the description of each:
     = Net Salary : R$
     Obs.: Gross Salary - Discounts = Net Salary.
 
-16. Make aprogram for a paint store. The program shall ask for the size of square meters of the area to be painted. Consider that the paint cover is 1 liter to every 3 square meters and the paint is sold in cans of 18 liters, that cost  R$ 80,00. Inform the user the quantity of paint cans to be bought and the the full price.
+16. Make a program for a paint store. The program shall ask for the size of square meters of the area to be painted. Consider that the paint cover is 1 liter to every 3 square meters and the paint is sold in cans of 18 liters, that cost  R$ 80,00. Inform the user the quantity of paint cans to be bought and the the full price.
 
 17. Faça um Programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 6 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00 ou em galões de 3,6 litros, que custam R$ 25,00.
     Informe ao usuário as quantidades de tinta a serem compradas e os respectivos preços em 3 situações:
